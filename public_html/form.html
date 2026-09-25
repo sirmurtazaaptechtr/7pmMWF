@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTM Form</title>
+</head>
+<body>
+    <h1>Sample Form 1</h1>
+    <form action="form.html" method="get">
+        <div>
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="FirstName" class="text-input" placeholder="example: John(John Doe) ">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="LastName" class="text-input" placeholder="example: Doe(John Doe)">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="tos"><b>Type of Shirt: </b></label>
+            <select id="tos" name="ShirType" class="select-input">
+                <option value="FS">Full-Sleeves</option>
+                <option value="HS">Half-Sleeves</option>
+                <option value="SA">Sando</option>
+                <option value="SL" selected>Sleeveless</option>
+            </select>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="sizeGroup"><b>Size: </b></label>
+            <span id="sizeGroup">
+                <input type="radio" id="lg" name="size">
+                <label for="lg">Large</label>
+                
+                <input type="radio" id="md" name="size">
+                <label for="md">Medium</label>
+                
+                <input type="radio" id="sm" name="size" checked>
+                <label for="sm">Small</label>
+            </span>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="colorGroup"><b>Color: </b></label>
+            <span id="colorGroup">
+                <input type="checkbox" id="colorRed" name="ColorRed">
+                <label for="colorRed">Red</label>
+
+                <input type="checkbox" id="colorNavy" name="ColorNavy">
+                <label for="colorNavy">Navy</label>
+
+                <input type="checkbox" id="colorBlack" name="ColorBlack">
+                <label for="colorBlack">Black</label>
+            </span>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="qty"><b>Quantity: </b></label>
+            <input type="number" id="qty" name="Qty" min="1" placeholder="min value is 1">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="comments"><b>Comments? </b></label>
+            <br>
+            <textarea id="comments" name="Comments"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dt"><b>Dated: </b></label>
+            <input type="date" id="dt" name="Date">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Buy Now!">
+            <input type="reset" value="Clear">
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+
+<body>
+    <font face="cursive">
+        <h1>Task 3</h1>
+        <form action="">
+            <table bgcolor="lightgray" cellspacing="0" cellpadding="12" width="400">
+                <thead bgcolor="orange">
+                    <tr>
+                        <th colspan="2" align="left">Sign Up</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="right"><label for="firstName">First Name</label></td>
+                        <td><input type="text" name="FirstName" id="firstName" placeholder="Enter First Name"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="lastName">Last Name</label></td>
+                        <td><input type="text" name="LastName" id="lastName" placeholder="Enter Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="dob">Date of Birth</label></td>
+                        <td>
+                            <span id="dob">
+                                <select name="Date" id="date">
+                                    <option value="0">Date</option>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                </select>
+
+                                <select name="Month" id="month">
+                                    <option value="0">Month</option>
+                                    <option value="1">Jan</option>
+                                    <option value="2">Feb</option>
+                                </select>
+
+                                <select name="Year" id="year">
+                                    <option value="0">Year</option>
+                                    <option value="1900">1900</option>
+                                    <option value="1901">1901</option>
+                                </select>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="selectGender">Gender</label></td>
+                        <td>
+                            <span id="selectGender">
+                                <input type="radio" name="Gender" id="male">
+                                <label for="male">Male</label>
+
+                                <input type="radio" name="Gender" id="female">
+                                <label for="female">Female</label>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="country">Country</label></td>
+                        <td>
+                            <select name="Country" id="country">
+                                <option value="0">Country</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="UK">United Kindom(UK)</option>
+                                <option value="USA">United States of America(USA)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="email">Email</label></td>
+                        <td><input type="email" name="Email" id="email" placeholder="example@email.com"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="phone">Phone</label></td>
+                        <td><input type="tel" name="Phone" id="phone" placeholder="+92-3xx-xxx-xxxx"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="password">Password</label></td>
+                        <td><input type="password" name="Password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="confirmPassword">Confirm Password</label></td>
+                        <td><input type="password" name="ConfirmPassword" id="confirmPassword"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="Agree" id="agree">
+                            <label for="agree">I Agree to the Terms of Use.</label>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot bgcolor="orange">
+                    <tr>
+                        <td colspan="2" align="right">
+                            <input type="submit" value="submit">
+                            <input type="reset" value="Canecl">
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </font>
+</body>
+
+</html>
