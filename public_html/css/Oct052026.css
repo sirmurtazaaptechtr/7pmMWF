@@ -1,0 +1,19 @@
+* {
+    font-family: cursive;    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;      
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+.box {
+    width: 275px;    
+    border: 3px solid red;
+    padding: 8px;
+    margin: 16px;
+    display: inline-block;
+}
