@@ -1,0 +1,64 @@
+* {
+    font-family: cursive;
+    box-sizing: border-box;    
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    background-image: url('../img/redrose.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: right;
+    background-color: wheat;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li  {
+    display: inline-block;
+    padding-left: 16px;
+    vertical-align: middle;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    font-weight: bolder;     
+    text-decoration: overline;
+    color: green;
+}
+nav ul li input {
+    width: 200px;
+    padding: 3px;
+    border-radius: 8px;
+
+}
+
+main {
+    padding: 16px;
+}
+
+h1 {    
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    width: fit-content;
+    padding: 16px;
+    margin: 16px auto;
+}
+
+.box {
+    width: 80%;
+    border: 3px groove black;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px auto;
+}
