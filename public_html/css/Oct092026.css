@@ -15,8 +15,9 @@ body {
 }
 
 nav {
+    padding: 16px;
     text-align: right;
-    background-color: wheat;
+    background-color: hotpink;
 }
 nav ul {
     list-style: none;

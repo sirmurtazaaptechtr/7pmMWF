@@ -1,0 +1,81 @@
+* {
+    font-family: cursive;
+    margin: 0px;    
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+}
+main {
+    border: 1px solid red;
+    width: 90vw;
+    margin: 16px auto;
+    font-size: 16px;
+}
+main > h2 {
+    color: red;
+}
+div {
+    border: 2px solid green;
+    width: 80%;
+    margin: 16px auto;
+    padding: 16px;
+}
+h1 {
+    /* font-size: 3rem; */
+    font-size: 3em;
+}
+h2 {
+    /* font-size: 2rem; */
+    font-size: 2em;
+}
+p + ul {
+    border: 4px solid yellow;
+}
+li {
+    /* font-size: 1rem; */
+    font-size: 1.5em;
+}
+h2 ~ p {
+    color: hotpink;
+}
+
+input[required] {
+    background-color: hotpink;
+}
+
+input[type="email"] {
+    background-color: cyan;
+}
+a[target="_blank"] {
+    text-decoration: none;
+    color: black;
+}
+
+input:focus {
+    width: 300px;
+}
+
+/* ul li:first-child {
+    color: crimson;
+} */
+
+/* ul li:last-child {
+    color: crimson;
+} */
+
+/* ul li:nth-child(even) {
+    color: tomato;
+} */
+
+/* ul li:nth-child(n + 2) {
+    color: tomato;
+} */
+
+/* ul li:nth-child(3n + 2) {
+    color: tomato;
+} */
+
+ul li:nth-child(-n + 2) {
+    color: tomato;
+}
