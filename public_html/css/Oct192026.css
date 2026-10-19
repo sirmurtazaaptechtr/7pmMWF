@@ -1,0 +1,30 @@
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+    margin: 0px;padding: 0px;
+}
+nav {
+    background-color: blanchedalmond;
+}
+nav ul {
+    list-style: none;
+    overflow: auto;
+}
+nav ul a {
+    float: left;
+}
+nav ul li {
+    float: left;
+    padding: 28px 14px;
+}
+nav ul li:last-child {
+    float: right;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    color: crimson;
+    text-decoration: overline;
+}
