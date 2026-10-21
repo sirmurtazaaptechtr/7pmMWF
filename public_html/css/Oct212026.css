@@ -1,0 +1,31 @@
+main {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    /* flex-direction: row;            
+            flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    /* align-items: start; */
+    align-items: center;
+    /* align-items: end; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    /* align-content: start; */
+    /* align-content: center; */
+    /* align-content: end; */
+    /* align-content: space-between; */
+    align-content: space-around;
+    /* gap: 32px 64px; */
+    row-gap: 32px;
+    column-gap: 64px;
+}
+.box {
+    border: 3px solid red;
+    padding: 24px;
+}
