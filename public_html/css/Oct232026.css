@@ -1,0 +1,31 @@
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;            
+}
+.item {
+    border: 3px solid red;
+    padding: 64px;           
+}
+#i1 {
+    order: 1;
+    /* flex-grow: 1;*/
+    align-self: center;    
+}
+#i2 {
+    /* flex-grow: 7; */
+    flex-basis: 400px;
+    align-self: flex-start;
+    align-self: flex-end;    
+}
+#i3 {
+    /* flex-grow: 2; */    
+}
