@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        * {box-sizing: border-box;margin: 0px;padding: 0px;}
+        .container {
+            height: 100vh;
+        }
+        .box {
+            position: absolute;
+            animation-name: wheel;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+            animation-direction: normal;
+        }
+        .container .box img {
+            height: 10vh;
+            width: 10vw;
+        }
+        #b1 {animation-delay: 0s;}
+        #b2 {animation-delay: 1s;}
+        #b3 {animation-delay: 2s;}
+        #b4 {animation-delay: 3s;}
+
+        @keyframes wheel {
+            000% {
+                top: 0vh;
+                left: 0vw;
+            }
+            025% {
+                top: 90vh;
+                left: 0vw;
+            }
+            050% {
+                top: 90vh;
+                left: 88vw;
+            }              
+            075% {
+                top: 0vh;
+                left: 88vw;
+            }              
+            100% {
+                top: 0vh;
+                left: 0vw;
+            }              
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="b1"><img src="img/Desert.jpg" alt=""></div>
+        <div class="box" id="b2"><img src="img/Tulips.jpg" alt=""></div>
+        <div class="box" id="b3"><img src="img/lion_webp_10.webp" alt=""></div>
+        <div class="box" id="b4"><img src="img/redrose.jpg" alt=""></div>
+    </div>
+</body>
+</html>
