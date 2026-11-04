@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Areas</title>
+    <style>
+        * {font-family: cursive;box-sizing: border-box;margin: 0px;padding: 0px;}
+        body {
+            display: grid;
+            grid-auto-rows: 100px;            
+            grid-template-areas: 
+            'hdr hdr hdr hdr hdr'
+            'nav nav nav nav nav'
+            'asd man man man art'
+            'asd man man man .'
+            'ftr ftr ftr ftr ftr';
+        }
+        .element {border: 1px dotted red;}        
+        header {grid-area: hdr;}
+        nav {grid-area: nav;}
+        aside {grid-area: asd;}
+        article {grid-area: art;}
+        main {grid-area: man;}
+        footer {grid-area: ftr;}
+    </style>
+</head>
+<body>
+    <header class="element">Header</header>
+    <nav class="element">Navigation</nav>
+    <aside class="element">Aside</aside>
+    <main class="element">Main</main>
+    <article class="element">Article</article>
+    <footer class="element">Footer</footer>
+</body>
+</html>

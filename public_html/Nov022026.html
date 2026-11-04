@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Oct262026.css">
+    <style>
+        * {
+            font-family: cursive;
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .item {
+            border: 1px dotted red;
+        }
+
+        body {
+            display: grid;
+            grid-auto-rows: 100px;
+            grid-template-areas:
+                'hdr nav nav nav'
+                'hro hro hro hro'
+                'hro hro hro hro'
+                'man man . img'
+                'man man . ext'
+                'ftr ftr ftr ftr';
+        }
+
+        header {
+            grid-area: hdr;
+        }
+
+        nav {
+            grid-area: nav;
+        }
+
+        .hero {
+            grid-area: hro;
+        }
+
+        main {
+            grid-area: man;
+        }
+
+        .image {
+            grid-area: img;
+        }
+
+        .extra {
+            grid-area: ext;
+        }
+
+        footer {
+            grid-area: ftr;
+        }
+
+        @media screen and (max-width: 992px) {
+            body {
+                grid-template-areas:
+                    'hdr hdr hdr hdr'
+                    'hro hro hro hro'
+                    'hro hro hro hro'
+                    'nav man man man'
+                    'nav man man man'
+                    'nav ftr ftr ftr'
+                    'nav ext ext img';
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="item">
+        <div id="logobox">
+            <a href="#">
+                <img src="img/gym-logo.png" alt="The Gym" height="75">
+            </a>
+        </div>
+    </header>
+    <nav class="item">
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Locations</a></li>
+        </ul>
+        <div id="searchbox">
+            <input type="text" placeholder="type here to search">
+        </div>
+    </nav>
+    <div class="item hero">HERO</div>
+    <main class="item">MAIN</main>
+    <article class="item image">IMAGE</article>
+    <article class="item extra">EXTRA</article>
+    <footer class="item">BANNER</footer>
+</body>
+
+</html>
