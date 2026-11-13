@@ -1,0 +1,87 @@
+:root {
+    font-size: 16px;
+}
+/* CSS Reset */
+* {
+    font-family: 'Times New Roman', Times, serif;    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: 16px 0px;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;      
+}
+
+/* main */
+
+main {
+    padding: 0px 36px;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;   
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;        
+}
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* About / Our Menu Section */
+.about, .ourmenu {
+    display: flex;    
+    align-items: start;
+    justify-content: center;
+    padding: 64px;
+}
+
+
+/* Utility Classes */
+.box {
+    width: 40vw;    
+}
+.box-heading {
+    font-size: 36px;
+    letter-spacing: 5px;        
+}
+.box-heading2 {
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.p18 {
+    margin: 16px 0px;
+    font-size: 18px;    
+}
+.light {
+    color: #757575;
+}
