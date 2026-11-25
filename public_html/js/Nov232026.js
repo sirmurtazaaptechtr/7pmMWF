@@ -1,6 +1,7 @@
 const outBox =  document.getElementById('outBox');
-let num = 9;
+console.log(outBox);
 
+let num = 9;
 console.log(num);
 outBox.innerHTML += `<p>${num}</p>`;
 
@@ -69,4 +70,3 @@ outBox.innerHTML += `<p>false XOR false: ${false ^ false}</p>`;
 
 outBox.innerHTML += `<p>NOT true: ${!true}</p>`;
 outBox.innerHTML += `<p>NOT false: ${!false}</p>`;
-
