@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill</title>
+</head>
+<body>
+    <h1>Electricity Bill</h1>
+    
+    <script>
+
+        let units = Number(prompt("Units?"));
+        let price = Number(prompt("Price per unit?"));
+        let bill = units * price;
+        let total = bill + bill * 0.17;   // 17% GST
+        let late = prompt("After due date? yes/no");
+
+        if (late == "yes") {
+            total = total + total * 0.10;
+        }
+        
+        document.write("Payable: " + total);
+
+    </script>
+</body>
+</html>

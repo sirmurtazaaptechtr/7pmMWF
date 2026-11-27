@@ -38,6 +38,7 @@ if(percentage >= 75.0) {
 }
 */
 
+/*
 let username = prompt("Enter Username");
 if(username == 'admin') {
     let password = prompt("Enter Password");
@@ -49,3 +50,47 @@ if(username == 'admin') {
 }else {
     document.write("Invalid Username!");
 }
+
+*/
+
+/*
+let choice = Number(prompt(`1. Large\n2. Medium\n3. Small\nEnter your choice:`));
+
+switch(choice) {
+    case 1:
+        document.write("You have selectd large cup");
+        break;
+    case 2:
+        document.write("You have selectd medium cup");
+        break;
+    case 3:
+        document.write("You have selectd small cup");
+        break;
+    default:
+        document.write("Invalid Choice!");
+        break;
+}
+*/
+/*
+let colour = prompt("Light colour?");
+
+switch (colour) {
+  
+  case "red":
+    document.write(`<h1 style="color: ${colour};">Stop</h1>`); 
+    break;
+  
+  case "yellow":
+    document.write(`<h1 style="color: ${colour};">Get ready</h1>`); 
+    break;
+  
+  case "green":
+    document.write(`<h1 style="color: ${colour};">Go</h1>`); 
+    break;
+  
+  default:
+    document.write(`<h1 style="color: ${colour};">Invalid colour!</h1>`);
+    break;
+
+}
+*/
